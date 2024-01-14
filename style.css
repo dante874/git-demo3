@@ -1,0 +1,112 @@
+
+
+
+ul {
+    list-style-type: none;
+    
+    
+}
+.container {
+    width: 1100px;
+    padding: 15px;
+    
+
+}
+
+.navbar a:hover {
+    color:red;
+
+}
+
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px;
+}
+.navbar .logo {
+    font-size: 60px;
+    color: white;
+    justify-content: end;
+
+    
+
+}
+
+
+.navbar ul {
+    display: flex;
+}
+.navbar ul li {
+    margin-left: 20px;
+}
+
+
+.image-newyork {
+    background-image: url(https://static01.nyt.com/images/2012/05/06/nyregion/06BIG_SPAN/BIG-superJumbo.jpg);
+    margin: 0px;
+    background-size: cover;
+}
+.image-london {
+    background-image: url(https://th.bing.com/th/id/R.54ebb73152f8a33b3a85495f2e935192?rik=vsbFXpq8Cq5rug&riu=http%3a%2f%2fwww.readersdigest.ca%2fwp-content%2fuploads%2f2016%2f05%2fvisit-london-tower-bridge-12.jpg&ehk=B9C2zZ8cj%2fL5xs0j%2bAy9S2sNxKrBnvkBUt7SM3hXJUw%3d&risl=&pid=ImgRaw&r=0);
+    margin: 0px;
+
+}
+
+.image-paris {
+    background-image: url(https://a57.foxnews.com/a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/11/640/320/1862/1048/louvre-istock.jpg?ve=1&tl=1?ve=1&tl=1);
+    margin: 0px;
+
+}
+.cities {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+
+    
+
+}
+div {
+    display: absolute;
+    flex-direction: column;
+
+}
+header {
+    
+
+    display: flex;
+    position:fixed;
+    
+}
+
+h2 {
+    bottom: 300px;
+    position: absolute;
+    color: black;
+    background-color: white;
+}
+p {
+    bottom: 200px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+}
+a:hover {
+    color: white;
+}
+a {
+    background-color: solid black;
+    color: yellow;
+    align-items: baseline;
+    bottom: 100px;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
